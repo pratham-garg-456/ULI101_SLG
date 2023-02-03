@@ -1,6 +1,6 @@
 ============================================================================================
 
-**Week: 1**
+# **Week: 1**
 
 1.  **cd**  -\> change directory
 2.  **pwd**  -\> present working directory
@@ -34,7 +34,7 @@
 
     ============================================================================================
 
-    **Week: 2**
+    # **Week: 2**
 
 12. **tree** -\> show the tree view of current present working directory.
 
@@ -98,7 +98,7 @@
 
     ========================================================================
 
-    **Week: 3**
+    # **Week: 3**
 
 28. **Absoulute path  -\>** /home/pgarg13/slg/output.txt
 29. **Relative path**  -\> output.txt
