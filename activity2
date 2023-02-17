@@ -1,0 +1,34 @@
+
+Before Starting Activity #2, 
+ -- Issue command: vi slg_for_uli/Denims/pants.txt
+ -- Copy and Paste the following 10 lines of text to this file (pants.txt)
+
+  Here comes Five stars
+	You neve know
+	what's next
+	This is Seneca College
+	Medical requires Biology
+	F.r.i.e.n.d.s
+	High Living
+	Amazon Prime has new Sale
+	Crispy Habenaro burger
+	Chipotle Wrap
+
+ACTIVITY #2
+QUESTIONS:
+
+1. Write a single Linux pipeline command to display the sorted contents (in reverse alphabetical order) of the “slg_for_uli” directory. Use a relative pathname.
+
+2. The text file called “pants.txt” contains 10 lines. Write a single Linux pipeline command to only displays lines 5 through 8 for this file. 
+   Use only relative pathnames.
+
+3. Write a single Linux pipeline command to only display the contents of the “Tuxedos” directory whose filenames match the pattern “living”
+  (both upper or lowercase). Use an absolute pathname.
+
+4. Write a single Linux pipeline command to sort the contents of "pants.txt" file in reverse order, with only first five lines displaying on the terminal screen
+   as well as appened to file "polo.txt" in "casuals" directory. (Use a relative pathname).
+
+5. Write a single Linux pipeline command to display the number of characters contained in the last 3 lines of the file called “pants.txt”. Use a relative pathname.
+
+6. Write a single Linux pipeline command to display only the first 10 characters of each line contained in your file "pants.txt" . Also,keep in mind
+   that your command makes sure that the output should pause at each screenful so you can navigate throughout the display contents. (Use a relative pathname)
