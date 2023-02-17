@@ -1,0 +1,38 @@
+1. mkdir -p slg_for_uli/{shirts/casuals,shirts/formal,Jackets,Denims,Tuxedoes}
+2. touch slg_for_uli/Denims/pants.txt slg_for_uli/Denims/chinos.txt
+3. touch slg_for_uli/shirts/casuals/polo.txt
+
+IMP: confirm your directory structure using command "tree slg_for_uli "
+You should get this OUTPUT: 
+
+slg_for_uli/
+├── Denims
+│   ├── chinos.txt
+│   └── pants.txt
+├── Jackets
+├── shirts
+│   ├── casuals
+│   │   └── polo.txt
+│   └── formal
+└── Tuxedoes
+
+
+ACTIVITY #1:
+QUESTIONS:
+
+1. Write a single Linux command to provide a detailed listing of all files in the /bin directory, sending the output to a file called "chinos.txt" in the
+   “Denims” directory (append output to existing file and use a relative pathname).
+
+2. Write a single Linux command to redirect the stderr from the command:
+   cat fan.txt box.txt zara.txt to a file called "polo.txt" contained in the “casuals” directory. (overwrite previous file’s contents and use only relative pathnames)
+
+3. Write a single Linux command: 
+   cat ~/fan.txt ~/box.txt ~/slg_for_uli/Denims/chinos.txt and redirect stdout to a file called “company.txt” to the “Tuxedos” directory and stderr to a 
+   file called “errors.txt” to the “Tuxedos” directory. (overwrite previous contents for both files and use only relative-to-home pathnames).
+
+4. Write a single Linux command to redirect the stdout from the command:
+   cat ~/fan.txt ~/box.txt ~/slg_for_uli/Denims/chinos.txt to a file called polo.txt contained in the “casuals” directory and throw-out any standard error messages so they don’t appear 
+   on the screen (append output to existing file and use only relative pathnames).
+
+5. Write a single Linux pipeline command to display a detailed listing of the “Tuxedos” directory but pause one screen at a time to view and 
+   navigate through all of the directory contents. Use a relative-to-home pathname.
