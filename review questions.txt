@@ -1,0 +1,40 @@
+Q1. Assuming that the user is currently in their home directory, which Unix commands will copy the entire contents of the user’s home directory (including subdirectory
+contents) to a directory called backup which is located in their home directory(using relative to home path)?
+
+Q2. Which of the following Unix commands will change permissions for all files contained in
+the directory pathname ~/unx122/samples to allow full permissions for the user, read and
+execute permissions for group and others?
+a) chmod 711 ~/unx122/samples
+b) chmod 755 ~/unx122/samples
+c) chmod 755 ~/unx122/samples/*
+d) chmod 766 ~/unx122/samples
+
+Q3. Write Unix commands that will display lines 3 to 7 of a 10 line file called fun contained in your parent directory.
+
+Q.4 What will happen if the following Unix command is issued:
+sort yourfile | tail -25 > abc
+
+Q.5 What will happen if the following Unix command is issued:
+sort yourfile | tail -25 >> abc
+
+Q.6 Write a single Unix command to save the current date and time into a file called
+current_date. This file should only contain the current date and time.
+
+Q.7 Write a single Unix pipeline command to store a sorted list of lines that do contain name
+Jones (any case) in a file called phone_numbers.txt at the back of the file “PHONES”
+
+Q.8 Write a single Unix command to remove all files and directories in SLG
+directory. Make certain to have the system prompt you prior to removing files or directories.
+
+Q.9 Without knowing your current directory move all text files from “schedule” directory which is present in “SLG” directory to
+your “home” directory.( SLG directory is in you home directory.(use relative to home path)
+
+Q.10 Perform a numeric sort on a file named unsorted and save the output to a file named
+sorted.
+
+Q.11 Perform a case-insensitive search for lines containing the word "error" in any file in your
+current directory. Append those lines to a file named errors.txt.
+
+Q.12 Which command will find all the files named bugs in the root directory and redirect
+standard error to the file named errors.txt?
+
