@@ -42,3 +42,17 @@ Q.9 Without knowing your current directory move all text files from “schedule�
 your “home” directory.( SLG directory is in you home directory.(use relative to home path)
 
 Ans. mv ~/SLG/Schedule/*.txt ~
+
+Q.10 Perform a numeric sort on a file named unsorted and save the output to a file named
+sorted.
+
+Ans. sort -n unsorted > sorted
+
+Q.11 Perform a case-insensitive search for lines containing the word "error" in any file in your
+current directory. Append those lines to a file named errors.txt.
+Ans. grep -i "error" * >> errors.txt
+
+Q.12 Which command will find all the files named bugs in the root directory and redirect
+standard error to the file named errors.txt?
+Ans. find / -name bugs 2> errors.txt
+
