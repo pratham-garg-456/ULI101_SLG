@@ -1,0 +1,44 @@
+
+Q1. Assuming that the user is currently in their home directory, which Unix commands will copy the entire contents of the user’s home directory (including subdirectory
+contents) to a directory called backup which is located in their home directory(using relative to home path)?
+Ans. cp –r ~ ~/backup
+
+Q2. Which of the following Unix commands will change permissions for all files contained in
+the directory pathname ~/unx122/samples to allow full permissions for the user, read and
+execute permissions for group and others?
+a) chmod 711 ~/unx122/samples
+b) chmod 755 ~/unx122/samples
+c) chmod 755 ~/unx122/samples/*
+d) chmod 766 ~/unx122/samples
+
+Ans. C
+
+Q3. Write Unix commands that will display lines 3 to 7 of a 10 line file called fun contained in your parent directory.
+Ans.
+head –7 ../fun | tail -5
+tail –8 ../fun | head -5 
+
+Q.4 What will happen if the following Unix command is issued:
+sort yourfile | tail -25 > abc
+
+
+Q.5 What will happen if the following Unix command is issued:
+sort yourfile | tail -25 >> abc
+
+Q.6 Write a single Unix command to save the current date and time into a file called
+current_date. This file should only contain the current date and time.
+Ans. date > current_date
+
+Q.7 Write a single Unix pipeline command to store a sorted list of lines that do contain name
+Jones (any case) in a file called phone_numbers.txt at the back of the file “PHONES”
+
+Ans. grep -i “jones” phone_numbers.txt | sort >> PHONES
+
+Q.8 Write a single Unix command to remove all files and directories in SLG
+directory. Make certain to have the system prompt you prior to removing files or directories.
+Ans. rm -ir SLG
+
+Q.9 Without knowing your current directory move all text files from “schedule” directory which is present in “SLG” directory to
+your “home” directory.( SLG directory is in you home directory.(use relative to home path)
+
+Ans. mv ~/SLG/Schedule/*.txt ~
