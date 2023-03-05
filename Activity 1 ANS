@@ -1,0 +1,5 @@
+1. ls -l /bin >> slg_for_uli/Denims/chinos.txt
+2. cat fan.txt box.txt zara.txt 2> slg_for_uli/shirts/casuals/polo.txt
+3. cat ~/fan.txt ~/box.txt ~/slg_for_uli/Denims/chinos.txt >~/slg_for_uli/Tuxedoes/company.txt 2> ~/slg_for_uli/Tuxedoes/errors.txt
+4. cat ~/fan.txt ~/box.txt ~/slg_for_uli/Denims/chinos.txt >> slg_for_uli/shirts/casuals/polo.txt 2> /dev/null
+5. ls -l ~/slg_for_uli/Tuxedoes/ | more
