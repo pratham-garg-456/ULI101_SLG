@@ -1,0 +1,59 @@
+1.  ls slg_for_uli | sort -r
+OUTPUT IS:
+
+Tuxedoes
+shirts
+Jackets
+Denims
+
+2.tail -5 ./slg_for_uli/Denims/pants.txt | head -4
+	OR
+  cat ./slg_for_uli/Denims/pants.txt | tail -5 | head -4
+
+OUTPUT IS:
+
+F.r.i.e.n.d.s
+High Living
+Amazon Prime has new Sale
+Crispy Habenaro burger
+
+3. ls /home/hsehjal/slg_for_uli/Tuxedoes/[lL][iI][vV][iI][nN][gG]
+
+OUTPUT IS:
+
+ls: cannot access /home/hsehjal/slg_for_uli/Tuxedoes/[lL][iI][vV][iI][nN][gG]: No such file or directory
+
+4.  sort -r slg_for_uli/Denims/pants.txt | head -5 | tee ./slg_for_uli/shirts/casuals/polo.txt
+
+OUTPUT IS:
+
+You neve know
+what's next
+This is Seneca College
+Medical requires Biology
+High Living
+
+(*Imp - Data displayed on screen will also be saved to file "polo.txt" since we used tee utility)
+
+5.  tail -3 ./slg_for_uli/Denims/pants.txt | wc -m
+
+	(*impt -> -m option is for characters)
+
+OUTPUT IS:
+
+63
+
+6. cut -c -10 ./slg_for_uli/Denims/pants.txt | more
+
+OUPUT IS:
+
+Here comes
+You neve k
+what's nex
+This is Se
+Medical re
+F.r.i.e.n.
+High Livin
+Amazon Pri
+Crispy Hab
+Chipotle W
